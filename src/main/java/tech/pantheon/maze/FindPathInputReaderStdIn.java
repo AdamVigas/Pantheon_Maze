@@ -28,7 +28,7 @@ public class FindPathInputReaderStdIn extends AbstractFindPathInputReader{
                 }
             }
         }catch (Exception ex) {
-            System.out.println("Couldnt find file.");
+            System.out.println("Error");
         }
     }
 
