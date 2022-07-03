@@ -17,7 +17,7 @@ public class Maze {
         coord.findStart(maze);
         if (step(coord.getX(),coord.getY())) {
             maze[coord.getX()][coord.getY()] = 'S';
-        }
+        }else System.out.println("Couldnt find exit.");
     }
 
     public void setMaze(char[][] maze) {
